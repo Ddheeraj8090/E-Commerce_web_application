@@ -1,0 +1,277 @@
+﻿Html,
+Body {
+    Font-Family: "Open Sans", Sans-Serif;
+    Height: 100%;
+}
+Body {
+    Background: #FFFFFF;
+    Height: 100%;
+}
+Img {
+    Max-Width: 100%;
+}
+Ul {
+    List-Style: None;
+    Margin: 0;
+    Padding: 0;
+}
+A {
+    Text-Decoration: None;
+}
+
+}
+.White-Label {
+    Float: Left;
+    Background: #33373B;
+    Max-Width: 210px;
+    Padding: 10px;
+    Min-Height: 44px;
+    Background: #279BE4;
+    Width: 100%;
+    Max-Height: 44px;
+}
+.White-Label Img {
+    Max-Height: 43px;
+}
+.Header-Nav {
+    Min-Height: 64px;
+    -Webkit-Box-Sizing: Border-Box;
+    -Moz-Box-Sizing: Border-Box;
+    Box-Sizing: Border-Box;
+    Background: #279BE4;
+}
+.Menu-Button {
+    Float: Left;
+    Font-Size: 29px;
+    Color: #Fff;
+    Padding: 12px 19px;
+}
+.Nav Ul {
+    Height: 64px;
+    Float: Right;
+}
+.Nav Ul Li {
+    Float: Left;
+    Position: Relative;
+    Padding: 11px;
+}
+.Nav > Ul > Li:first-Child {
+    Border-Left: None;
+}
+.Nav Ul Li A {
+    Color: #Fff;
+    Padding: 1px;
+    Float: Left;
+}
+.Nav Ul Li I {
+    Color: #Fff;
+}
+.Nav Ul Li:hover {
+    Background: #01A9F0;
+    Color: #Fff;
+}
+.User-Profile {
+    Float: Right;
+}
+.User-Profile > Div {
+    Float: Left;
+    Padding: 20px 8px;
+    Position: Relative;
+}
+.User-Profile I {
+    Font-Size: 1.2em;
+    Color: #5F6F86;
+}
+.User-Profile I:hover {
+    Color: #397AC5;
+}
+.Font-Icon I:after {
+    Position: Absolute;
+    Content: "3";
+    Background: #E74C3C;
+    Color: #Fff;
+    Font-Size: 12px;
+    Border-Radius: 50%;
+    Width: 10px;
+    Height: 10px;
+    Padding: 3px 4px 4px 3px;
+    Text-Align: Center;
+    Top: 12px;
+    Right: 11px;
+}
+.Font-Icon {
+    Padding: 8px 10px;
+}
+.Font-Icon I {
+    Font-Size: 24px;
+}
+.Nav-Mail .Font-Icon I:after {
+    Background: #2ECC71;
+}
+Div.User-Image {
+    Padding: 9px 5px;
+    Margin: 0 5px;
+    Border-Left: 1px Solid #Ccc;
+    Border-Right: 1px Solid #Ccc;
+}
+.Nav-Profile {
+    Background: #0274BD;
+}
+.Nav-Profile-Image Img {
+    Width: 39px;
+    Height: 41px;
+    Border-Radius: 50%;
+    Float: Left;
+}
+.Nav-Profile-Name {
+    Float: Right;
+    Margin: 11px 7px 8px 14px;
+    Color: #Fff;
+}
+.Nav-Profile-Name I {
+    Padding: 0 0 0 11px;
+}
+.Nav-Chat I:after {
+    Display: None;
+}
+#Sidebar {
+    Overflow: Hidden;
+    Width: 210px;
+    Height: 100%;
+    Float: Left;
+    Background: #2A2D33;
+}
+#Sidebar-Nav {
+    Width: 106%;
+    Height: Calc(100% - 95px);
+    Padding: 0;
+    Background: #2A2D33;
+    Border-Right: 1px Solid #E0E0E0;
+    Overflow-Y: Scroll;
+}
+#Sidebar-Nav H2 {
+    Color: #60636B;
+    Float: Left;
+    Width: 100%;
+    Font-Size: 0.8em;
+    Font-Family: "Open Sans", Sans-Serif;
+    Font-Weight: 600;
+    Text-Transform: Uppercase;
+    Padding: 3px 0 2px 20px;
+    Border-Top: 1px Solid #4D4C4C;
+    Box-Sizing: Border-Box;
+    Margin: 10px 0;
+}
+#Sidebar-Nav Ul {
+}
+#Sidebar-Nav Ul Li {
+}
+#Sidebar-Nav Ul Li A {
+    Color: #C2C2C2;
+    Font-Size: 0.95em;
+    Padding: 15px 20px;
+    Float: Left;
+    Width: 100%;
+    Font-Weight: 600;
+    -Webkit-Box-Sizing: Border-Box;
+    -Moz-Box-Sizing: Border-Box;
+    Box-Sizing: Border-Box;
+}
+#Sidebar-Nav Ul Li:hover A,
+#Sidebar-Nav Ul Li:hover A I,
+#Sidebar-Nav Li.Active A,
+#Sidebar-Nav Li.Active A I {
+    Color: #333;
+}
+#Sidebar-Nav Ul Li:hover A {
+    Background: #Fff;
+    Color: #333;
+}
+#Sidebar-Nav Ul Li.Active A {
+    Background: #Fff;
+    Color: #333;
+}
+#Sidebar-Nav Ul Li.Active A I {
+    Background: #Fff;
+}
+#Sidebar-Nav I {
+    Padding-Right: 8px;
+    Font-Size: 1.3em;
+    Color: #60636B;
+    Width: 25px;
+    Text-Align: Center;
+}
+#Content {
+    Float: Left;
+    Width: Calc(100% - 210px);
+    Height: 100%;
+    Word-Wrap: Break-Word;
+    Background: #FFFFFF;
+    Font-Family: Raleway, Sans-Serif;
+}
+::-Webkit-Scrollbar {
+    Width: 12px;
+}
+::-Webkit-Scrollbar-Track {
+    -Webkit-Box-Shadow: Inset 0 0 6px Rgba(0, 0, 0, 0.3);
+    Border-Radius: 10px;
+}
+::-Webkit-Scrollbar-Thumb {
+    Border-Radius: 10px;
+    -Webkit-Box-Shadow: Inset 0 0 6px Rgba(0, 0, 0, 0.5);
+}
+.Content {
+    Float: Left;
+    Background: #E9EEF4;
+    Width: 130%;
+    Height: Calc(100% - 64px);
+
+    Box-Sizing: Border-Box;
+}
+.Content-Header {
+    Background: #Fff;
+    Float: Left;
+    Width: 100%;
+    Margin-Bottom: 15px;
+    Padding: 15px;
+    -Webkit-Box-Sizing: Border-Box;
+    -Moz-Box-Sizing: Border-Box;
+    Box-Sizing: Border-Box;
+    Border-Bottom: 1px Solid #Ccc;
+}
+.Content-Header H1 {
+    Margin: 0;
+    Font-Weight: Normal;
+    Padding-Bottom: 5px;
+}
+.Content-Header P {
+    Margin: 0;
+    Padding-Left: 2px;
+}
+.Widget-Box {
+    Background: #Fff;
+    Border: 1px Solid #E0E0E0;
+    Float: Left;
+    Width: 100%;
+    Margin: 0 0 15px 15px;
+}
+.Widget-Header {
+    Background: #279BE4;
+}
+.Widget-Header H2 {
+    Font-Size: 15px;
+    Font-Weight: Normal;
+    Margin: 0;
+    Padding: 11px 15px;
+    Color: #F9F9F9;
+    Display: Inline-Block;
+}
+.Sample-Widget {
+    Max-Width: 47%;
+}
+.Widget-Box .Fa-Cog {
+    Float: Right;
+    Color: #Fff;
+    Margin: 11px 11px 0 0;
+    Font-Size: 20px;
+}

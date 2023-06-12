@@ -1,0 +1,30 @@
+﻿
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+ .button {
+        background-color: #FFDEB887;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 50%;
+    }
+ .f1{
+        width: 39vw;
+        height: 35vw;
+        margin: 70px;
+        border-radius: 17px;}
+body{
+    /*background-color: cyan;*/
+    background-image:url(../img/loginimg.gif);
+    background-size:cover;
+}

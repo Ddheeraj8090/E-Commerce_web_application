@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E91E4F5-BC9A-4C27-8D87-AEC8273D24B1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>essaybuing.com</RootNamespace>
+    <AssemblyName>essaybuing.com</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\img\delete.png" />
+    <Content Include="admin\productaddpage.aspx" />
+    <Content Include="testing\add_product.aspx" />
+    <Content Include="admin\admin_login.aspx" />
+    <Content Include="admin\adphomepage.aspx" />
+    <Content Include="admin\assets\css\bootstrap.css" />
+    <Content Include="admin\assets\css\custom.css" />
+    <Content Include="admin\assets\css\font-awesome.css" />
+    <Content Include="admin\assets\js\bootstrap.min.js" />
+    <Content Include="admin\assets\js\custom.js" />
+    <Content Include="admin\assets\js\jquery-1.10.2.js" />
+    <Content Include="admin\css\bootstrap.css" />
+    <Content Include="admin\css\custom.css" />
+    <Content Include="admin\css\das.css" />
+    <Content Include="admin\css\font-awesome.css" />
+    <Content Include="admin\img\easybuy.png" />
+    <Content Include="admin\img\last.gif" />
+    <Content Include="admin\img\White &amp; Blue Modern Line Chart Graph %282%29.gif" />
+    <Content Include="admin\img\White &amp; Blue Modern Line Chart Graph %283%29.gif" />
+    <Content Include="admin\img\first.gif" />
+    <Content Include="admin\js\bootstrap.min.js" />
+    <Content Include="admin\js\custom.js" />
+    <Content Include="admin\js\jquery-1.10.2.js" />
+    <Content Include="admin\css\admin_login.css" />
+    <Content Include="admin\dashboard.aspx" />
+    <Content Include="admin\newregistrartion.aspx" />
+    <Content Include="admin\odrp.aspx" />
+    <Content Include="admin\ordersp.aspx" />
+    <Content Include="admin\productadd.aspx" />
+    <Content Include="admin\testing.aspx" />
+    <Content Include="admin\userandpassword.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="testing\testingemail.aspx" />
+    <Content Include="testing\testingotp.aspx" />
+    <Content Include="testing\textboxevent.aspx" />
+    <Content Include="user\about_us.aspx" />
+    <Content Include="user\css\paymentd.css" />
+    <Content Include="user\css\theme.css" />
+    <Content Include="user\display_item.aspx" />
+    <Content Include="user\css\forgotpassword.css" />
+    <Content Include="user\Forgot_password.aspx" />
+    <Content Include="user\img\97d0939a-9c48-4f80-8b2e-39ba1c374f2b.jpg" />
+    <Content Include="user\img\dheeraj.png" />
+    <Content Include="user\img\aboutimg.jpg" />
+    <Content Include="user\img\download.jpg" />
+    <Content Include="user\img\easybuy.png" />
+    <Content Include="user\img\essaysing.gif" />
+    <Content Include="user\img\loginimg.gif" />
+    <Content Include="user\img\IMG_20221122_095334_963-removebg-preview.png" />
+    <Content Include="user\css\indes.css" />
+    <Content Include="user\indes.aspx" />
+    <Content Include="user\login.aspx" />
+    <Content Include="user\css\login.css" />
+    <Content Include="user\paymentd.aspx" />
+    <Content Include="user\productdetails.aspx" />
+    <Content Include="user\productimg\194-1945575_transparent-laptop-png-latest-dell-laptop-2018-png.png" />
+    <Content Include="user\productimg\509-5092096_offering-high-quality-mobile-repair-service-main-image.png" />
+    <Content Include="user\productimg\depositphotos_216267876-stock-photo-paris-france-sep-2018-two.jpg" />
+    <Content Include="user\productimg\How_to_Sell_Photos_Online_For_Both_Amateur_and_Pro_Photographers.png" />
+    <Content Include="user\productimg\laptopimg.png" />
+    <Content Include="user\productimg\pexels-photo-205926.jpg" />
+    <Content Include="user\productimg\workplace-2303851__340.jpg" />
+    <Content Include="user\product_desc.aspx" />
+    <Content Include="user\singup.aspx" />
+    <Content Include="user\css\singup.css" />
+    <Content Include="testing\testingmasterpage.aspx" />
+    <Content Include="user\usermaster.Master" />
+    <Content Include="admin\admin_master.Master" />
+    <Content Include="user\usermain.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="testing\home.aspx" />
+    <Content Include="user\home.aspx" />
+    <Content Include="user\css\home.css" />
+    <Content Include="user\css\viewp.css" />
+    <Content Include="user\Viewproduct.aspx" />
+    <Content Include="user\details.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\productaddpage.aspx.cs">
+      <DependentUpon>productaddpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\productaddpage.aspx.designer.cs">
+      <DependentUpon>productaddpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testing\add_product.aspx.cs">
+      <DependentUpon>add_product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testing\add_product.aspx.designer.cs">
+      <DependentUpon>add_product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\admin_login.aspx.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin_login.aspx.designer.cs">
+      <DependentUpon>admin_login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\admin_master.Master.cs">
+      <DependentUpon>admin_master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin_master.Master.designer.cs">
+      <DependentUpon>admin_master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adphomepage.aspx.cs">
+      <DependentUpon>adphomepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adphomepage.aspx.designer.cs">
+      <DependentUpon>adphomepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Class1.cs" />
+    <Compile Include="admin\dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testing\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testing\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\newregistrartion.aspx.cs">
+      <DependentUpon>newregistrartion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\newregistrartion.aspx.designer.cs">
+      <DependentUpon>newregistrartion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\odrp.aspx.cs">
+      <DependentUpon>odrp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\odrp.aspx.designer.cs">
+      <DependentUpon>odrp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\ordersp.aspx.cs">
+      <DependentUpon>ordersp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\ordersp.aspx.designer.cs">
+      <DependentUpon>ordersp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\productadd.aspx.cs">
+      <DependentUpon>productadd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\productadd.aspx.designer.cs">
+      <DependentUpon>productadd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\testing.aspx.cs">
+      <DependentUpon>testing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\testing.aspx.designer.cs">
+      <DependentUpon>testing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\userandpassword.aspx.cs">
+      <DependentUpon>userandpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\userandpassword.aspx.designer.cs">
+      <DependentUpon>userandpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testing\textboxevent.aspx.cs">
+      <DependentUpon>textboxevent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testing\textboxevent.aspx.designer.cs">
+      <DependentUpon>textboxevent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\about_us.aspx.cs">
+      <DependentUpon>about_us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\about_us.aspx.designer.cs">
+      <DependentUpon>about_us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\indes.aspx.cs">
+      <DependentUpon>indes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\indes.aspx.designer.cs">
+      <DependentUpon>indes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\paymentd.aspx.cs">
+      <DependentUpon>paymentd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\paymentd.aspx.designer.cs">
+      <DependentUpon>paymentd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\productdetails.aspx.cs">
+      <DependentUpon>productdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\productdetails.aspx.designer.cs">
+      <DependentUpon>productdetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\usermain.Master.cs">
+      <DependentUpon>usermain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\usermain.Master.designer.cs">
+      <DependentUpon>usermain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="user\Viewproduct.aspx.cs">
+      <DependentUpon>Viewproduct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\Viewproduct.aspx.designer.cs">
+      <DependentUpon>Viewproduct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\details.aspx.cs">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\details.aspx.designer.cs">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\Class1 %281%29.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testing\testingemail.aspx.cs">
+      <DependentUpon>testingemail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testing\testingemail.aspx.designer.cs">
+      <DependentUpon>testingemail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testing\testingotp.aspx.cs">
+      <DependentUpon>testingotp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testing\testingotp.aspx.designer.cs">
+      <DependentUpon>testingotp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\display_item.aspx.cs">
+      <DependentUpon>display_item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\display_item.aspx.designer.cs">
+      <DependentUpon>display_item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\Forgot_password.aspx.cs">
+      <DependentUpon>Forgot_password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\Forgot_password.aspx.designer.cs">
+      <DependentUpon>Forgot_password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\product_desc.aspx.cs">
+      <DependentUpon>product_desc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\product_desc.aspx.designer.cs">
+      <DependentUpon>product_desc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\singup.aspx.cs">
+      <DependentUpon>singup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\singup.aspx.designer.cs">
+      <DependentUpon>singup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testing\testingmasterpage.aspx.cs">
+      <DependentUpon>testingmasterpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testing\testingmasterpage.aspx.designer.cs">
+      <DependentUpon>testingmasterpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\usermaster.Master.cs">
+      <DependentUpon>usermaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\usermaster.Master.designer.cs">
+      <DependentUpon>usermaster.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+    <Folder Include="productimg\" />
+    <Folder Include="sealer\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57485</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53601/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
